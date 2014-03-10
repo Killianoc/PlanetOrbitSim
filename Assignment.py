@@ -29,7 +29,7 @@ class Star(object):
         print("The planet " + self.name + " has been drawn!")
         print(self.t.position())
     
-""" Planets function """
+""" Planets class """
 class Planets(Star):
     pRadius = 0
     """ Initialise the planets and set each of their values """
